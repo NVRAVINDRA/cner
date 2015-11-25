@@ -1,0 +1,11 @@
+{{extend 'layout.html'}}
+<form action="process" id="inp">
+  Patent Number:<br>
+  <input type="text" name="patentnumber" value="CA2203237C">
+  <br>
+  Patent Title:<br>
+  <textarea name="patenttitle" rows="1" cols="100">Aminotetrazole derivatives useful as nitric oxide synthase inhibitors</textarea>
+  <br>
+  Patent Abstract:<br>
+  <textarea name="patentabstract" rows="10" cols="100">Compounds having formula (I) and pharmaceutically acceptable salts thereof, wherein B is NR5R11, wherein R5 is selected from the group consisting of hydrogen, lower alkyl, lower alkenyl, lower alkynyl and aryl, and R11 is selected from a 3 to 8 member heterocyclyl radical in which at least one member of the ring is carbon and in which 1 to about 4 members are heteroatoms independently selected from oxygen, nitrogen and sulfur and said heterocyclyl radical may be optionally substituted, useful as nitric oxide synthase inhibitors.</textarea>
+</form>
